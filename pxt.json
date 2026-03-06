@@ -1,0 +1,26 @@
+{
+    "name": "Smart Makers",
+    "version": "0.0.3.1",
+    "description": "Uma extensão para o micro:bit dos kits Smart Makers",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "actuators.ts",
+        "sensors.ts",
+        "smart.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
